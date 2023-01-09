@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio website about Jeremy Simumba, software engineering apprentice at AJ Bell">
+    <title>Jeremy Simumba</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Scroll Top -->
+    <a href="#home" class="scroll-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <a href="#" class="logo">Jeremy</a>
+            <!-- Navbar -->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Hamburger Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="img/headshot-removebg.png" alt="Jeremy headshot">
+            </div>
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span class="color">Jeremy</span></h2>
+                <p>
+                    I am a <span class="color">Software Engineering</span > apprentice at AJ Bell with a strong passion for computer science and all things Tech!<br>Here's a bit more about me.
+                </p>
+                <!-- Socials -->
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/jeremy-simumba/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/JJ034" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about container" id="about">
+        <h2 class="heading">About</h2>
+
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Web Developer, <br> Software Engineer & Tech Enthusiast</h2>
+                <a href="JeremySimumba_CV.pdf" target="_blank" class="btn">
+                    View CV
+                    <i class='bx bx-export' ></i></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello, I'm Jeremy Simumba. I'm currently a Software Engineering apprentice at AJ Bell. At the start of my journey to becoming a full stack engineer. When I'm not at uni, I work part time with MMU </p>
+                <p>I've lived in Oldham all my life with my parents and my two younger siblings. I'm a huge Manchester United fan and love my food.</p>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio container" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <!-- Portfolio Content -->
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <img src="img/ajenda_scrnsht.png" alt="" class="portfolio-img">
+                <!-- Overlay -->
+                <div class="portfolio-overlay">
+                    <h2>Ajenda</h2>
+                    <a href="http://pocst-ajend-rgdxnstnjtms-1213529994.eu-west-1.elb.amazonaws.com/home" target="_blank">
+                        <i class='bx bx-link-alt' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section  class="contact container" id="contact">
+        <!-- Heading -->
+        <h2 class="heading">Contact</h2>
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/xpzezonj" method="post" class="contact-form" id="contact-form">
+            <input type="text" name="contact-name" placeholder="Your Name" class="name" name="" required>
+            <input type="email" name="contact-email" id="" placeholder="Email address..." class="email" required>
+            <textarea name="contact-message" id="" cols="30" rows="10" placeholder="Write message here..." required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+
+
+
+
+
+        <!-- <div class="container-content">
+            <h2 class="heading">Contact Me</h2>
+
+            <form action="https://formspree.io/[your email address goes here]" method="post">
+                <p>
+                    <label for="contact-name">Your Name</label>
+                    <input id="contact-name" type="text" name="contact-name">
+                </p>
+                <p>
+                    <label for="contact-email">Your email address</label>
+                    <input id="contact-email" type="email" name="contact-email"> </p>
+                <p>
+                    <label for="contact-phone">Your phone number</label>
+                    <input id="contact-phone" type="tel" name="contact-phone"> </p>
+                <p>
+                    <label for="contact-message">Your message</label>
+                    <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                </p>
+                <p>
+                    <input type="submit" value="send my message"> </p>
+            </form>
+        </div> -->
+    </section>
+
+
+
+    <!-- Link to JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
